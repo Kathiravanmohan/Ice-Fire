@@ -2,6 +2,7 @@ var div=document.createElement("div");
 div.style.textAlign="center";
 var input=document.createElement("input");
 input.setAttribute("type","text");
+input.setAttribute("placeholder","Enter the number 1-12");
 input.setAttribute("id","books");
 
 var button=document.createElement("button");
